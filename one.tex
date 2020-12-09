@@ -1,0 +1,33 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{amsmath,amsthm,amssymb}
+\begin{document}
+
+1. Say whether the following is true or false and support your answer by a proof. 
+
+$$(\exists m,n \in \mathbb{N}) (3m + 5n = 12)$$
+
+This statement is false.
+
+\begin{proof}
+Let $n = 1$. Solve the equation for incremental values of $m$ starting with the smallest natural number until the solution is greater than 12
+
+\begin{align*} 
+  3m + 5n &= x \\ 
+  (3 \times 1) + 5 &= 8 \\
+  (3 \times 2) + 5 &= 11 \\
+  (3 \times 3) + 5 &= 14
+\end{align*}
+
+And similarly for $m = 1$, solve the equation for incremental values of $n$
+
+\begin{align*} 
+  3m + 5n &= x \\ 
+  3 + (5 \times 1) &= 8 \\
+  3 + (5 \times 2) &= 13
+\end{align*}
+
+Clearly any further increment of either $m$ or $n$ results in a solution that is
+greater than 12. The theorem is therefore false.
+\end{proof}
+
+\end{document}
