@@ -1,2 +1,4 @@
-# mathematical-thinking
-Coursera course latex problem solutions
+# Introduction to Mathematical Thinking
+
+Coursera online course. Testflight solutions
+
