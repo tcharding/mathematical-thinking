@@ -1,0 +1,40 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{amsmath,amsthm,amssymb}
+\begin{document}
+
+2. Say whether the following is true or false and support your answer by a proof: 
+The sum of any five consecutive integers is divisible by 5 (without remainder).
+
+\begin{proof}
+
+  By mathematical induction.
+
+  For any integer $x$ the sum of the first 5 consecutive integers is given by:
+
+  $$x + (x + 1) + (x + 2) + (x + 3) + (x + 4) = 5n $$
+
+  For $x = 1$, we have:
+\begin{align*} 
+  1 + (1 + 1) + (1 + 2) + (1 + 3) + (1 + 4) &= 5n \\
+  1 + 2 + 3 + 4 + 5 &= 5n \\
+  15 &= 5n \\
+  3 &= n
+\end{align*}
+
+Subsituting $x + 1$ for $x$ we have:
+
+\begin{align*} 
+&= (x + 1) + ((x + 1) + 1) + ((x + 1) + 2) + ((x + 1) + 3) + ((x + 1) + 4) 
+  \tag{subsitute x+1} \\
+&= 5 + (x + (x + 1) + (x + 2) + (x + 3) + (x + 4)) 
+  \tag{bring plus ones out the front} \\
+&= 5 + 5n \\ \tag{from the inductive statement} \\
+&= 5(1 + n)
+\end{align*}
+
+This proves that the inductive statement is true for $x + 1$, therefore proving
+by the principle of mathematical induction that the theorem is true.
+  
+\end{proof}
+
+\end{document}
