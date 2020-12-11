@@ -1,0 +1,33 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{amsmath,amsthm,amssymb}
+\begin{document}
+
+5. Prove that for any integer $n$, at least one of the integers $n$, $n + 2$, $n
++ 4$ is divisible by 3.
+
+Pre-proof note:
+
+$n + 4$ is equivalent to $n + 1 + 3$. This is clearly divisible by 3 if, and
+only if, $n + 1$ is divisible by three. We will therefore consider $n + 1$
+instead of $n + 4$ with no loss of generality.
+
+\emph{Theorem}: For all integers $n$ at least one of the following expressions is divisible by 3
+\begin{enumerate}
+	\item $n$
+	\item $n + 1$
+	\item $n + 2$
+\end{enumerate}
+
+\begin{proof}
+
+For any integer $n$, $n$ is either divisible by 3 (case $1.$) or there is some remainder
+$r$ (where $r$ = 1 or $r$ = 2).
+If $r = 2$, we can add 1 to $n$ to get a number divisible by 3 (case $2.$).
+If $r = 1$, we can add 2 to $n$ to get a number divisible by 3 (case $3.$).
+
+This proves that the theorem is true, for any integer $n$ one of the three cases
+stated above is divisible by 3.
+
+\end{proof}
+
+\end{document}
