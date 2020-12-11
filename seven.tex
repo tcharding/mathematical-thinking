@@ -1,0 +1,34 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{amsmath,amsthm,amssymb}
+\begin{document}
+
+7. Prove that for any natural number $n$ $$2 + 2^2 + 2^3 + .. + 2^n = 2^{n+1} - 2$$
+
+\begin{proof}
+
+  Proof by induction. Base case for $n = 1$:
+
+  \begin{align*}
+    2^1 &= 2^{1+1} - 2 \\
+        &= 2^2 - 2 \\
+        &= 4 - 2 \\
+        &= 2
+  \end{align*} 
+
+  Substituting $n + 1$, we get:
+
+  \begin{align*}
+    LHS &= 2 + 2^2 + 2^3 + .. + 2^{n+1} \\
+        &= 2 + 2^2 + 2^3 + .. + 2^n + 2^{n+1} \tag{show second to last term} \\
+        &= (2 + 2^2 + 2^3 + .. + 2^n) + 2^{n+1} \tag{group first terms} \\
+        &= (2^{n+1} - 2) + 2^{n+1} \tag{by inductive statement} \\
+        &= 2^{n+1} + 2^{n+1} - 2 \tag{re-arrange terms} \\
+        &= 2(2^{n+1}) - 2 \tag{group similar terms} \\
+        &= 2^{n+2} - 2 \\
+        &= 2^{(n+1)+1} - 2 \\
+        &= RHS
+  \end{align*} 
+
+\end{proof}
+
+\end{document}
