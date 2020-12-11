@@ -1,0 +1,21 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{amsmath,amsthm,amssymb}
+\begin{document}
+
+3. Say whether the following is true or false and support your answer by a
+proof: For any integer $n$, the number $n^2 + n + 1$ is odd.
+
+\begin{proof}
+
+  Proof by contradiction.
+
+  Assume: $\exists n \in \mathbb{Z}$ such that $n$ is even.
+
+  Since $n^2 + n + 1$ is even then $n^2 + n$ must be odd.
+  Since $n^2 + n$ is odd, either $n^2$ or $n$ must be odd (since only the sum of
+  an odd and even number gives an odd number). But since $n$ is even, $n^2$ must
+  be even - this is a contradiction.
+  
+\end{proof}
+
+\end{document}
