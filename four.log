@@ -2,8 +2,8 @@ This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/home/tobin/build/github.com/tcharding/mathematical-thinking/two.tex
-(/home/tobin/build/github.com/tcharding/mathematical-thinking/two.tex
+**/home/tobin/build/github.com/tcharding/mathematical-thinking/four.tex
+(/home/tobin/build/github.com/tcharding/mathematical-thinking/four.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -109,8 +109,8 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count187
 \l__pdf_internal_box=\box47
 )
-(./two.aux)
-\openout1 = `two.aux'.
+(./four.aux)
+\openout1 = `four.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
@@ -126,36 +126,33 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
-
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./two.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./four.aux) ) 
 Here is how much of TeX's memory you used:
  1583 strings out of 483183
- 19810 string characters out of 5966291
- 249765 words of memory out of 5000000
+ 19820 string characters out of 5966291
+ 244767 words of memory out of 5000000
  16632 multiletter control sequences out of 15000+600000
  537330 words of font info for 43 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 30i,8n,31p,276b,174s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on two.pdf (2 pages, 40819 bytes).
+ 30i,8n,31p,277b,168s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on four.pdf (1 page, 31657 bytes).
 PDF statistics:
- 27 PDF objects out of 1000 (max. 8388607)
- 18 compressed objects within 1 object stream
+ 20 PDF objects out of 1000 (max. 8388607)
+ 13 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
